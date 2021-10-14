@@ -1,14 +1,14 @@
 {
-  "name": "react-photo-gallery",
+  "name": "react-photo-gallery-for-next",
   "version": "8.0.0",
-  "description": "Responsive Justified React Image Gallery Component",
+  "description": "Responsive Justified React Image Gallery Component For Next",
   "main": "dist/react-photo-gallery.umd.js",
   "module": "dist/react-photo-gallery.esm.js",
   "files": [
     "/dist",
     "index.d.ts"
   ],
-  "author": "Sandra Gonzales",
+  "author": "Sandra Gonzales/MateusGX",
   "license": "MIT",
   "homepage": "https://github.com/neptunian/react-photo-gallery",
   "repository": {
@@ -61,6 +61,7 @@
     "webpack-dev-server": "^3.1.14"
   },
   "peerDependencies": {
+    "next": "^11.1.2",
     "react": "^16.8.0",
     "react-dom": "^16.8.0"
   },
