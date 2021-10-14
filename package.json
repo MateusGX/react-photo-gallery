@@ -1,5 +1,5 @@
 {
-  "name": "@mateusgx/react-photo-gallery-for-next",
+  "name": "@mateusgx/react-photo-gallery",
   "version": "8.0.0",
   "description": "Responsive Justified React Image Gallery Component For Next",
   "main": "dist/react-photo-gallery.umd.js",
