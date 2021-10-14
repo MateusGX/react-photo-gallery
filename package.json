@@ -12,6 +12,9 @@
     "type": "git",
     "url": "https://github.com/MateusGX/react-photo-gallery.git"
   },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  },
   "author": "Sandra Gonzales/MateusGX",
   "license": "MIT",
   "dependencies": {
