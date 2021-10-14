@@ -4,7 +4,7 @@ import Image from 'next/image';
 const imgWithClick = { cursor: 'pointer' };
 
 const Photo = ({ index, onClick, photo, margin, direction, top, left, key }) => {
-  const imgStyle = { margin: margin, display: 'block' };
+  const imgStyle = { margin: margin, display: 'block', borderRadius: 5 };
   if (direction === 'column') {
     imgStyle.position = 'absolute';
     imgStyle.left = left;
