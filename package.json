@@ -1,5 +1,5 @@
 {
-  "name": "react-photo-gallery-for-next",
+  "name": "@mateusgx/react-photo-gallery-for-next",
   "version": "8.0.0",
   "description": "Responsive Justified React Image Gallery Component For Next",
   "main": "dist/react-photo-gallery.umd.js",
@@ -8,6 +8,10 @@
     "/dist",
     "index.d.ts"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/MateusGX/react-photo-gallery.git"
+  },
   "author": "Sandra Gonzales/MateusGX",
   "license": "MIT",
   "dependencies": {
