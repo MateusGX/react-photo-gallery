@@ -16,12 +16,9 @@ const Photo = ({ index, onClick, photo, margin, direction, top, left, key }) => 
   };
 
   return (
-    <Image
-      key={key}
-      style={onClick ? { ...imgStyle, ...imgWithClick } : imgStyle}
-      {...photo}
-      onClick={onClick ? handleClick : null}
-    />
+    <div style={onClick ? { ...imgStyle, ...imgWithClick } : imgStyle} key={key} onClick={onClick ? handleClick : null}>
+      <Image {...photo} />
+    </div>
   );
 };
 
