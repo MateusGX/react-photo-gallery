@@ -1,6 +1,6 @@
 {
   "name": "@mateusgx/react-photo-gallery",
-  "version": "8.0.3",
+  "version": "8.0.4",
   "description": "Responsive Justified React Image Gallery Component For Next",
   "main": "dist/react-photo-gallery.umd.js",
   "module": "dist/react-photo-gallery.esm.js",
@@ -11,9 +11,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/MateusGX/react-photo-gallery.git"
-  },
-  "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
   },
   "author": "Sandra Gonzales/MateusGX",
   "license": "MIT",
